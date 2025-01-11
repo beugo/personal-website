@@ -1,3 +1,98 @@
-baseURL = 'http://example.org/'
+baseURL = "https://beugo.github.io/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hugo Smith'
+theme= 'hermit-v2'
+enableRobotsTXT = true
+
+###############################################################################
+# LANGUAGE / MULTILINGUAL
+###############################################################################
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+###############################################################################
+# CODE HIGHLIGHTING
+###############################################################################
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+###############################################################################
+# CONTENT FRONTMATTER
+###############################################################################
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+###############################################################################
+# SITE TAXONOMIES
+###############################################################################
+[taxonomies]
+  tag = "tags"
+  # category = "categories"
+
+###############################################################################
+# SITE PARAMS (Hermit V2 customisations)
+###############################################################################
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Default Hermit colours (feel free to change)
+  themeColor  = "#494f5c"
+  accentColor = "#018472"
+
+  # Site metadata
+  footerCopyright = "© 2025 Hugo Smith"
+
+  # Feature toggles
+  relatedPosts     = true      # Show related posts at the bottom
+  code_copy_button = true      # Show a copy button for code blocks
+  homeSubtitlePrinter = true   # Fancy home-subtitle typewriter effect
+  scrollToTop      = true      # Show Scroll to Top button
+  global_mathjax   = false     # Set to true only if you plan on using LaTeX
+  readTime         = true      # Estimate read times on posts
+  shareSocial      = true      # Social share icons on posts
+
+###############################################################################
+# AUTHOR INFORMATION
+###############################################################################
+[params.author]
+  name = "Hugo Smith"
+
+###############################################################################
+# SOCIAL ICONS
+###############################################################################
+# Each social link will appear as an icon button. The 'name' must match one of
+# the supported icons listed in the theme docs (e.g. linkedin, github, instagram).
+[[params.socialLinks]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/hugo-cartell-smith"
+
+[[params.socialLinks]]
+  name = "instagram"
+  url  = "https://www.instagram.com/hugocartellsmith/"
+
+[[params.socialLinks]]
+  name = "github"
+  url  = "https://github.com/beugo"
+
+###############################################################################
+# MENU
+###############################################################################
+[menu]
+
+  # ABOUT PAGE - We'll create content/about.md
+  [[menu.main]]
+    name   = "About"
+    url    = "/about/"
+    weight = 10
+
+  # PROJECTS PAGE - We'll create content/projects.md
+  [[menu.main]]
+    name   = "Projects"
+    url    = "/projects/"
+    weight = 20
