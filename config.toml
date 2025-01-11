@@ -46,7 +46,8 @@ expiryDate = ["expiryDate"]
   accentColor = "#018472"
 
   # Site metadata
-  footerCopyright = "© 2025 Hugo Smith"
+  footerCopyright = "Powered by Hugo and Hermit-V2"
+  homeSubtitle = "Computer Science and Cybersecurity Student"
 
   # Feature toggles
   relatedPosts     = true      # Show related posts at the bottom
@@ -62,6 +63,7 @@ expiryDate = ["expiryDate"]
 ###############################################################################
 [params.author]
   name = "Hugo Smith"
+  about = "Computer Science and Cybersecurity Student"
 
 ###############################################################################
 # SOCIAL ICONS
@@ -80,6 +82,9 @@ expiryDate = ["expiryDate"]
   name = "github"
   url  = "https://github.com/beugo"
 
+[[params.socialLinks]]
+  name = "email"
+  url  = "mailto:huga@iinet.net.au"
 ###############################################################################
 # MENU
 ###############################################################################
