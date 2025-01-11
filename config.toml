@@ -41,7 +41,7 @@ expiryDate = ["expiryDate"]
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  # Default Hermit colours (feel free to change)
+  # Default Hermit colours
   themeColor  = "#494f5c"
   accentColor = "#018472"
 
@@ -90,19 +90,12 @@ expiryDate = ["expiryDate"]
 ###############################################################################
 [menu]
 
-  # ABOUT PAGE - We'll create content/about.md
-  [[menu.main]]
-    name   = "About"
-    url    = "/about/"
-    weight = 10
-
-  # PROJECTS PAGE - We'll create content/projects.md
   [[menu.main]]
     name   = "Projects"
     url    = "/projects/"
-    weight = 20
+    weight = 10
 
   [[menu.main]]
   name   = "Experiences"
   url    = "/experiences/"
-  weight = 30
+  weight = 20
