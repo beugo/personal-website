@@ -9,17 +9,11 @@ draft: false
 Hack-Astrophe is a multi-server penetration testing challenge designed to simulate real-world security scenarios.
 
 
-<br/>
-
-
 ## [Viper](https://github.com/beugo/viper) - An Advanced Data Extraction Virus
 
-Viper is a multi-platform, python-based virus, capable of replication, mutation, self-obfuscation, and stealthy data exfiltration.
-
-
-<br/>
+Viper is a multi-platform, Python-based virus, capable of replication, mutation, self-obfuscation, and stealthy data exfiltration.
 
 
 ## [SafeCipher](https://github.com/beugo/safecipher) - Secure Coding in Classic Cryptography
 
-SafeCipher implements encryption and decryption functions for Caesar and Vigenère ciphers, featuring a command-line interface (CLI) and secure coding practices like input validation, memory safety, and error handling to ensure reliability.
+SafeCipher implements encryption and decryption functions for Caesar and Vigenère ciphers, featuring secure coding practices like input validation, memory safety, and error handling to ensure reliability.
