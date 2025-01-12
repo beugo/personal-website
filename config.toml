@@ -57,13 +57,13 @@ expiryDate = ["expiryDate"]
   global_mathjax   = false     # Set to true only if you plan on using LaTeX
   readTime         = true      # Estimate read times on posts
   shareSocial      = true      # Social share icons on posts
+  footerHideThemeName = true
 
 ###############################################################################
 # AUTHOR INFORMATION
 ###############################################################################
 [params.author]
   name = "Hugo Smith"
-  about = "Computer Science and Cybersecurity Student"
 
 ###############################################################################
 # SOCIAL ICONS
