@@ -1,6 +1,6 @@
 baseURL = "https://beugo.github.io/"
 languageCode = 'en-us'
-title = 'Hugo Cartell Smith'
+title = 'Hugo Smith'
 theme= 'hermit-v2'
 enableRobotsTXT = true
 
@@ -63,7 +63,7 @@ expiryDate = ["expiryDate"]
 # AUTHOR INFORMATION
 ###############################################################################
 [params.author]
-  name = "Hugo Cartell Smith"
+  name = "Hugo Smith"
 
 ###############################################################################
 # SOCIAL ICONS
@@ -96,6 +96,6 @@ expiryDate = ["expiryDate"]
     weight = 10
 
   [[menu.main]]
-  name   = "Experience"
-  url    = "/experience/"
+  name   = "Experiences"
+  url    = "/experiences/"
   weight = 20
