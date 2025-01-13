@@ -1,4 +1,4 @@
-baseURL = "https://beugo.github.io/"
+baseURL = "https://www.hugocartellsmith.com"
 languageCode = 'en-us'
 title = 'Hugo Smith'
 theme= 'hermit-v2'
