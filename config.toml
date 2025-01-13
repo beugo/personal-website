@@ -1,4 +1,4 @@
-baseURL = "https://www.hugocartellsmith.com"
+baseURL = "https://hugocartellsmith.com"
 languageCode = 'en-us'
 title = 'Hugo Smith'
 theme= 'hermit-v2'
